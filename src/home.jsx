@@ -26,8 +26,8 @@ function Home() {
                 <span>our products</span>
                 <button onClick={()=>{nav("/home")}}>home</button>
                 <input placeholder='serach & explore' type="text" />
-                <button onClick={()=>{nav("/")}}>signup</button>
-                <button onClick={()=>{nav("/login")}}>login</button>
+                <button>Orders</button>
+                <button>mycart</button>
                 
             </nav>
         <div className="home-container">
